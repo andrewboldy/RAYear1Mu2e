@@ -1,0 +1,5 @@
+*.art
+*.root
+*.tar
+*.fcl
+AnalysisCode/ConsoleOutputs/twoElectronTrkSegAnalysisOutputPrintedOutput.txt
