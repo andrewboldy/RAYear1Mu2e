@@ -1,0 +1,20 @@
+========================================================================================
+Mu2e .art TTree Structure Report
+========================================================================================
+TTree number: 10 of 11
+TTree path: ResultsTree
+TTree name: ResultsTree
+TTree title: 
+TTree entries: 1
+----------------------------------------------------------------------------------------
+Branch and Leaf Structure
+----------------------------------------------------------------------------------------
+Branch 1: ResultsAuxiliary | Entries: 1 | Class: art::ResultsAuxiliary
+  Title: ResultsAuxiliary
+  Leaf: ResultsAuxiliary | Type: art::ResultsAuxiliary | Entries (owning branch): 1 | Static length: 1
+----------------------------------------------------------------------------------------
+Report Totals
+Top-level branches: 1
+Total branches (including sub-branches): 1
+Total leaves: 1
+========================================================================================

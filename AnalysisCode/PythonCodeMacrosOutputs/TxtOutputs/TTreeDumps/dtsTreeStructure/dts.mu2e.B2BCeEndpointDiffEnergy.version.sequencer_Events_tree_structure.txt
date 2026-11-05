@@ -1,0 +1,176 @@
+========================================================================================
+Mu2e .art TTree Structure Report
+========================================================================================
+TTree number: 4 of 11
+TTree path: Events
+TTree name: Events
+TTree title: 
+TTree entries: 66545
+----------------------------------------------------------------------------------------
+Branch and Leaf Structure
+----------------------------------------------------------------------------------------
+Branch 1: EventAuxiliary | Entries: 66545 | Class: art::EventAuxiliary
+  Title: EventAuxiliary
+  Leaf: EventAuxiliary | Type: art::EventAuxiliary | Entries (owning branch): 66545 | Static length: 1
+Branch 2: art::TriggerResults_TriggerResults__Primary. | Entries: 66545 | Class: art::Wrapper<art::TriggerResults>
+  Title: art::TriggerResults_TriggerResults__Primary.
+  Leaf: art::TriggerResults_TriggerResults__Primary. | Type: art::Wrapper<art::TriggerResults> | Entries (owning branch): 66545 | Static length: 1
+  Sub-branches:
+    Branch 3: art::TriggerResults_TriggerResults__Primary.present | Entries: 66545 | Class: art::Wrapper<art::TriggerResults>
+      Title: art::TriggerResults_TriggerResults__Primary.present
+      Leaf: art::TriggerResults_TriggerResults__Primary.present | Type: Bool_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 4: art::TriggerResults_TriggerResults__Primary.rangeSetID | Entries: 66545 | Class: art::Wrapper<art::TriggerResults>
+      Title: art::TriggerResults_TriggerResults__Primary.rangeSetID
+      Leaf: art::TriggerResults_TriggerResults__Primary.rangeSetID | Type: UInt_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 5: art::TriggerResults_TriggerResults__Primary.obj | Entries: 66545 | Class: art::Wrapper<art::TriggerResults>
+      Title: art::TriggerResults_TriggerResults__Primary.obj
+      Leaf: art::TriggerResults_TriggerResults__Primary.obj | Type: art::TriggerResults | Entries (owning branch): 66545 | Static length: 1
+Branch 6: mu2e::GenParticles_compressDetStepMCs__Primary. | Entries: 66545 | Class: art::Wrapper<vector<mu2e::GenParticle> >
+  Title: mu2e::GenParticles_compressDetStepMCs__Primary.
+  Leaf: mu2e::GenParticles_compressDetStepMCs__Primary. | Type: art::Wrapper<vector<mu2e::GenParticle> > | Entries (owning branch): 66545 | Static length: 1
+  Sub-branches:
+    Branch 7: mu2e::GenParticles_compressDetStepMCs__Primary.present | Entries: 66545 | Class: art::Wrapper<vector<mu2e::GenParticle> >
+      Title: mu2e::GenParticles_compressDetStepMCs__Primary.present
+      Leaf: mu2e::GenParticles_compressDetStepMCs__Primary.present | Type: Bool_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 8: mu2e::GenParticles_compressDetStepMCs__Primary.rangeSetID | Entries: 66545 | Class: art::Wrapper<vector<mu2e::GenParticle> >
+      Title: mu2e::GenParticles_compressDetStepMCs__Primary.rangeSetID
+      Leaf: mu2e::GenParticles_compressDetStepMCs__Primary.rangeSetID | Type: UInt_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 9: mu2e::GenParticles_compressDetStepMCs__Primary.obj | Entries: 66545 | Class: art::Wrapper<vector<mu2e::GenParticle> >
+      Title: mu2e::GenParticles_compressDetStepMCs__Primary.obj
+      Leaf: mu2e::GenParticles_compressDetStepMCs__Primary.obj | Type: vector<mu2e::GenParticle> | Entries (owning branch): 66545 | Static length: 1
+Branch 10: mu2e::CaloShowerSteps_compressDetStepMCs__Primary. | Entries: 66545 | Class: art::Wrapper<vector<mu2e::CaloShowerStep> >
+  Title: mu2e::CaloShowerSteps_compressDetStepMCs__Primary.
+  Leaf: mu2e::CaloShowerSteps_compressDetStepMCs__Primary. | Type: art::Wrapper<vector<mu2e::CaloShowerStep> > | Entries (owning branch): 66545 | Static length: 1
+  Sub-branches:
+    Branch 11: mu2e::CaloShowerSteps_compressDetStepMCs__Primary.present | Entries: 66545 | Class: art::Wrapper<vector<mu2e::CaloShowerStep> >
+      Title: mu2e::CaloShowerSteps_compressDetStepMCs__Primary.present
+      Leaf: mu2e::CaloShowerSteps_compressDetStepMCs__Primary.present | Type: Bool_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 12: mu2e::CaloShowerSteps_compressDetStepMCs__Primary.rangeSetID | Entries: 66545 | Class: art::Wrapper<vector<mu2e::CaloShowerStep> >
+      Title: mu2e::CaloShowerSteps_compressDetStepMCs__Primary.rangeSetID
+      Leaf: mu2e::CaloShowerSteps_compressDetStepMCs__Primary.rangeSetID | Type: UInt_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 13: mu2e::CaloShowerSteps_compressDetStepMCs__Primary.obj | Entries: 66545 | Class: art::Wrapper<vector<mu2e::CaloShowerStep> >
+      Title: mu2e::CaloShowerSteps_compressDetStepMCs__Primary.obj
+      Leaf: mu2e::CaloShowerSteps_compressDetStepMCs__Primary.obj | Type: vector<mu2e::CaloShowerStep> | Entries (owning branch): 66545 | Static length: 1
+Branch 14: mu2e::SimParticleart::Ptrmu2e::MCTrajectorystd::map_compressDetStepMCs__Primary. | Entries: 66545 | Class: art::Wrapper<map<art::Ptr<mu2e::SimParticle>,mu2e::MCTrajectory> >
+  Title: mu2e::SimParticleart::Ptrmu2e::MCTrajectorystd::map_compressDetStepMCs__Primary.
+  Leaf: mu2e::SimParticleart::Ptrmu2e::MCTrajectorystd::map_compressDetStepMCs__Primary. | Type: art::Wrapper<map<art::Ptr<mu2e::SimParticle>,mu2e::MCTrajectory> > | Entries (owning branch): 66545 | Static length: 1
+  Sub-branches:
+    Branch 15: mu2e::SimParticleart::Ptrmu2e::MCTrajectorystd::map_compressDetStepMCs__Primary.present | Entries: 66545 | Class: art::Wrapper<map<art::Ptr<mu2e::SimParticle>,mu2e::MCTrajectory> >
+      Title: mu2e::SimParticleart::Ptrmu2e::MCTrajectorystd::map_compressDetStepMCs__Primary.present
+      Leaf: mu2e::SimParticleart::Ptrmu2e::MCTrajectorystd::map_compressDetStepMCs__Primary.present | Type: Bool_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 16: mu2e::SimParticleart::Ptrmu2e::MCTrajectorystd::map_compressDetStepMCs__Primary.rangeSetID | Entries: 66545 | Class: art::Wrapper<map<art::Ptr<mu2e::SimParticle>,mu2e::MCTrajectory> >
+      Title: mu2e::SimParticleart::Ptrmu2e::MCTrajectorystd::map_compressDetStepMCs__Primary.rangeSetID
+      Leaf: mu2e::SimParticleart::Ptrmu2e::MCTrajectorystd::map_compressDetStepMCs__Primary.rangeSetID | Type: UInt_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 17: mu2e::SimParticleart::Ptrmu2e::MCTrajectorystd::map_compressDetStepMCs__Primary.obj | Entries: 66545 | Class: art::Wrapper<map<art::Ptr<mu2e::SimParticle>,mu2e::MCTrajectory> >
+      Title: mu2e::SimParticleart::Ptrmu2e::MCTrajectorystd::map_compressDetStepMCs__Primary.obj
+      Leaf: mu2e::SimParticleart::Ptrmu2e::MCTrajectorystd::map_compressDetStepMCs__Primary.obj | Type: map<art::Ptr<mu2e::SimParticle>,mu2e::MCTrajectory> | Entries (owning branch): 66545 | Static length: 1
+Branch 18: mu2e::SurfaceSteps_compressDetStepMCs__Primary. | Entries: 66545 | Class: art::Wrapper<vector<mu2e::SurfaceStep> >
+  Title: mu2e::SurfaceSteps_compressDetStepMCs__Primary.
+  Leaf: mu2e::SurfaceSteps_compressDetStepMCs__Primary. | Type: art::Wrapper<vector<mu2e::SurfaceStep> > | Entries (owning branch): 66545 | Static length: 1
+  Sub-branches:
+    Branch 19: mu2e::SurfaceSteps_compressDetStepMCs__Primary.present | Entries: 66545 | Class: art::Wrapper<vector<mu2e::SurfaceStep> >
+      Title: mu2e::SurfaceSteps_compressDetStepMCs__Primary.present
+      Leaf: mu2e::SurfaceSteps_compressDetStepMCs__Primary.present | Type: Bool_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 20: mu2e::SurfaceSteps_compressDetStepMCs__Primary.rangeSetID | Entries: 66545 | Class: art::Wrapper<vector<mu2e::SurfaceStep> >
+      Title: mu2e::SurfaceSteps_compressDetStepMCs__Primary.rangeSetID
+      Leaf: mu2e::SurfaceSteps_compressDetStepMCs__Primary.rangeSetID | Type: UInt_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 21: mu2e::SurfaceSteps_compressDetStepMCs__Primary.obj | Entries: 66545 | Class: art::Wrapper<vector<mu2e::SurfaceStep> >
+      Title: mu2e::SurfaceSteps_compressDetStepMCs__Primary.obj
+      Leaf: mu2e::SurfaceSteps_compressDetStepMCs__Primary.obj | Type: vector<mu2e::SurfaceStep> | Entries (owning branch): 66545 | Static length: 1
+Branch 22: mu2e::SimParticlemv_compressDetStepMCs__Primary. | Entries: 66545 | Class: art::Wrapper<cet::map_vector<mu2e::SimParticle> >
+  Title: mu2e::SimParticlemv_compressDetStepMCs__Primary.
+  Leaf: mu2e::SimParticlemv_compressDetStepMCs__Primary. | Type: art::Wrapper<cet::map_vector<mu2e::SimParticle> > | Entries (owning branch): 66545 | Static length: 1
+  Sub-branches:
+    Branch 23: mu2e::SimParticlemv_compressDetStepMCs__Primary.present | Entries: 66545 | Class: art::Wrapper<cet::map_vector<mu2e::SimParticle> >
+      Title: mu2e::SimParticlemv_compressDetStepMCs__Primary.present
+      Leaf: mu2e::SimParticlemv_compressDetStepMCs__Primary.present | Type: Bool_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 24: mu2e::SimParticlemv_compressDetStepMCs__Primary.rangeSetID | Entries: 66545 | Class: art::Wrapper<cet::map_vector<mu2e::SimParticle> >
+      Title: mu2e::SimParticlemv_compressDetStepMCs__Primary.rangeSetID
+      Leaf: mu2e::SimParticlemv_compressDetStepMCs__Primary.rangeSetID | Type: UInt_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 25: mu2e::SimParticlemv_compressDetStepMCs__Primary.obj | Entries: 66545 | Class: art::Wrapper<cet::map_vector<mu2e::SimParticle> >
+      Title: mu2e::SimParticlemv_compressDetStepMCs__Primary.obj
+      Leaf: mu2e::SimParticlemv_compressDetStepMCs__Primary.obj | Type: cet::map_vector<mu2e::SimParticle> | Entries (owning branch): 66545 | Static length: 1
+Branch 26: mu2e::StatusG4_g4run__Primary. | Entries: 66545 | Class: art::Wrapper<mu2e::StatusG4>
+  Title: mu2e::StatusG4_g4run__Primary.
+  Leaf: mu2e::StatusG4_g4run__Primary. | Type: art::Wrapper<mu2e::StatusG4> | Entries (owning branch): 66545 | Static length: 1
+  Sub-branches:
+    Branch 27: mu2e::StatusG4_g4run__Primary.present | Entries: 66545 | Class: art::Wrapper<mu2e::StatusG4>
+      Title: mu2e::StatusG4_g4run__Primary.present
+      Leaf: mu2e::StatusG4_g4run__Primary.present | Type: Bool_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 28: mu2e::StatusG4_g4run__Primary.rangeSetID | Entries: 66545 | Class: art::Wrapper<mu2e::StatusG4>
+      Title: mu2e::StatusG4_g4run__Primary.rangeSetID
+      Leaf: mu2e::StatusG4_g4run__Primary.rangeSetID | Type: UInt_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 29: mu2e::StatusG4_g4run__Primary.obj | Entries: 66545 | Class: art::Wrapper<mu2e::StatusG4>
+      Title: mu2e::StatusG4_g4run__Primary.obj
+      Leaf: mu2e::StatusG4_g4run__Primary.obj | Type: mu2e::StatusG4 | Entries (owning branch): 66545 | Static length: 1
+Branch 30: mu2e::StepPointMCs_compressDetStepMCs_virtualdetector_Primary. | Entries: 66545 | Class: art::Wrapper<vector<mu2e::StepPointMC> >
+  Title: mu2e::StepPointMCs_compressDetStepMCs_virtualdetector_Primary.
+  Leaf: mu2e::StepPointMCs_compressDetStepMCs_virtualdetector_Primary. | Type: art::Wrapper<vector<mu2e::StepPointMC> > | Entries (owning branch): 66545 | Static length: 1
+  Sub-branches:
+    Branch 31: mu2e::StepPointMCs_compressDetStepMCs_virtualdetector_Primary.present | Entries: 66545 | Class: art::Wrapper<vector<mu2e::StepPointMC> >
+      Title: mu2e::StepPointMCs_compressDetStepMCs_virtualdetector_Primary.present
+      Leaf: mu2e::StepPointMCs_compressDetStepMCs_virtualdetector_Primary.present | Type: Bool_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 32: mu2e::StepPointMCs_compressDetStepMCs_virtualdetector_Primary.rangeSetID | Entries: 66545 | Class: art::Wrapper<vector<mu2e::StepPointMC> >
+      Title: mu2e::StepPointMCs_compressDetStepMCs_virtualdetector_Primary.rangeSetID
+      Leaf: mu2e::StepPointMCs_compressDetStepMCs_virtualdetector_Primary.rangeSetID | Type: UInt_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 33: mu2e::StepPointMCs_compressDetStepMCs_virtualdetector_Primary.obj | Entries: 66545 | Class: art::Wrapper<vector<mu2e::StepPointMC> >
+      Title: mu2e::StepPointMCs_compressDetStepMCs_virtualdetector_Primary.obj
+      Leaf: mu2e::StepPointMCs_compressDetStepMCs_virtualdetector_Primary.obj | Type: vector<mu2e::StepPointMC> | Entries (owning branch): 66545 | Static length: 1
+Branch 34: mu2e::CrvSteps_compressDetStepMCs__Primary. | Entries: 66545 | Class: art::Wrapper<vector<mu2e::CrvStep> >
+  Title: mu2e::CrvSteps_compressDetStepMCs__Primary.
+  Leaf: mu2e::CrvSteps_compressDetStepMCs__Primary. | Type: art::Wrapper<vector<mu2e::CrvStep> > | Entries (owning branch): 66545 | Static length: 1
+  Sub-branches:
+    Branch 35: mu2e::CrvSteps_compressDetStepMCs__Primary.present | Entries: 66545 | Class: art::Wrapper<vector<mu2e::CrvStep> >
+      Title: mu2e::CrvSteps_compressDetStepMCs__Primary.present
+      Leaf: mu2e::CrvSteps_compressDetStepMCs__Primary.present | Type: Bool_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 36: mu2e::CrvSteps_compressDetStepMCs__Primary.rangeSetID | Entries: 66545 | Class: art::Wrapper<vector<mu2e::CrvStep> >
+      Title: mu2e::CrvSteps_compressDetStepMCs__Primary.rangeSetID
+      Leaf: mu2e::CrvSteps_compressDetStepMCs__Primary.rangeSetID | Type: UInt_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 37: mu2e::CrvSteps_compressDetStepMCs__Primary.obj | Entries: 66545 | Class: art::Wrapper<vector<mu2e::CrvStep> >
+      Title: mu2e::CrvSteps_compressDetStepMCs__Primary.obj
+      Leaf: mu2e::CrvSteps_compressDetStepMCs__Primary.obj | Type: vector<mu2e::CrvStep> | Entries (owning branch): 66545 | Static length: 1
+Branch 38: mu2e::PrimaryParticle_FindMCPrimary__Primary. | Entries: 66545 | Class: art::Wrapper<mu2e::PrimaryParticle>
+  Title: mu2e::PrimaryParticle_FindMCPrimary__Primary.
+  Leaf: mu2e::PrimaryParticle_FindMCPrimary__Primary. | Type: art::Wrapper<mu2e::PrimaryParticle> | Entries (owning branch): 66545 | Static length: 1
+  Sub-branches:
+    Branch 39: mu2e::PrimaryParticle_FindMCPrimary__Primary.present | Entries: 66545 | Class: art::Wrapper<mu2e::PrimaryParticle>
+      Title: mu2e::PrimaryParticle_FindMCPrimary__Primary.present
+      Leaf: mu2e::PrimaryParticle_FindMCPrimary__Primary.present | Type: Bool_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 40: mu2e::PrimaryParticle_FindMCPrimary__Primary.rangeSetID | Entries: 66545 | Class: art::Wrapper<mu2e::PrimaryParticle>
+      Title: mu2e::PrimaryParticle_FindMCPrimary__Primary.rangeSetID
+      Leaf: mu2e::PrimaryParticle_FindMCPrimary__Primary.rangeSetID | Type: UInt_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 41: mu2e::PrimaryParticle_FindMCPrimary__Primary.obj | Entries: 66545 | Class: art::Wrapper<mu2e::PrimaryParticle>
+      Title: mu2e::PrimaryParticle_FindMCPrimary__Primary.obj
+      Leaf: mu2e::PrimaryParticle_FindMCPrimary__Primary.obj | Type: mu2e::PrimaryParticle | Entries (owning branch): 66545 | Static length: 1
+Branch 42: mu2e::StrawGasSteps_compressDetStepMCs__Primary. | Entries: 66545 | Class: art::Wrapper<vector<mu2e::StrawGasStep> >
+  Title: mu2e::StrawGasSteps_compressDetStepMCs__Primary.
+  Leaf: mu2e::StrawGasSteps_compressDetStepMCs__Primary. | Type: art::Wrapper<vector<mu2e::StrawGasStep> > | Entries (owning branch): 66545 | Static length: 1
+  Sub-branches:
+    Branch 43: mu2e::StrawGasSteps_compressDetStepMCs__Primary.present | Entries: 66545 | Class: art::Wrapper<vector<mu2e::StrawGasStep> >
+      Title: mu2e::StrawGasSteps_compressDetStepMCs__Primary.present
+      Leaf: mu2e::StrawGasSteps_compressDetStepMCs__Primary.present | Type: Bool_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 44: mu2e::StrawGasSteps_compressDetStepMCs__Primary.rangeSetID | Entries: 66545 | Class: art::Wrapper<vector<mu2e::StrawGasStep> >
+      Title: mu2e::StrawGasSteps_compressDetStepMCs__Primary.rangeSetID
+      Leaf: mu2e::StrawGasSteps_compressDetStepMCs__Primary.rangeSetID | Type: UInt_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 45: mu2e::StrawGasSteps_compressDetStepMCs__Primary.obj | Entries: 66545 | Class: art::Wrapper<vector<mu2e::StrawGasStep> >
+      Title: mu2e::StrawGasSteps_compressDetStepMCs__Primary.obj
+      Leaf: mu2e::StrawGasSteps_compressDetStepMCs__Primary.obj | Type: vector<mu2e::StrawGasStep> | Entries (owning branch): 66545 | Static length: 1
+Branch 46: art::EventIDs_TargetStopResampler__Primary. | Entries: 66545 | Class: art::Wrapper<vector<art::EventID> >
+  Title: art::EventIDs_TargetStopResampler__Primary.
+  Leaf: art::EventIDs_TargetStopResampler__Primary. | Type: art::Wrapper<vector<art::EventID> > | Entries (owning branch): 66545 | Static length: 1
+  Sub-branches:
+    Branch 47: art::EventIDs_TargetStopResampler__Primary.present | Entries: 66545 | Class: art::Wrapper<vector<art::EventID> >
+      Title: art::EventIDs_TargetStopResampler__Primary.present
+      Leaf: art::EventIDs_TargetStopResampler__Primary.present | Type: Bool_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 48: art::EventIDs_TargetStopResampler__Primary.rangeSetID | Entries: 66545 | Class: art::Wrapper<vector<art::EventID> >
+      Title: art::EventIDs_TargetStopResampler__Primary.rangeSetID
+      Leaf: art::EventIDs_TargetStopResampler__Primary.rangeSetID | Type: UInt_t | Entries (owning branch): 66545 | Static length: 1
+    Branch 49: art::EventIDs_TargetStopResampler__Primary.obj | Entries: 66545 | Class: art::Wrapper<vector<art::EventID> >
+      Title: art::EventIDs_TargetStopResampler__Primary.obj
+      Leaf: art::EventIDs_TargetStopResampler__Primary.obj | Type: vector<art::EventID> | Entries (owning branch): 66545 | Static length: 1
+----------------------------------------------------------------------------------------
+Report Totals
+Top-level branches: 13
+Total branches (including sub-branches): 49
+Total leaves: 49
+========================================================================================

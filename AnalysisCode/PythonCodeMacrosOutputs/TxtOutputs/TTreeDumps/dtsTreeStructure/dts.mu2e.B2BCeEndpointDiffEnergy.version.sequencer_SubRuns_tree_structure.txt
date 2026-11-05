@@ -1,0 +1,33 @@
+========================================================================================
+Mu2e .art TTree Structure Report
+========================================================================================
+TTree number: 6 of 11
+TTree path: SubRuns
+TTree name: SubRuns
+TTree title: 
+TTree entries: 1
+----------------------------------------------------------------------------------------
+Branch and Leaf Structure
+----------------------------------------------------------------------------------------
+Branch 1: SubRunAuxiliary | Entries: 1 | Class: art::SubRunAuxiliary
+  Title: SubRunAuxiliary
+  Leaf: SubRunAuxiliary | Type: art::SubRunAuxiliary | Entries (owning branch): 1 | Static length: 1
+Branch 2: mu2e::GenEventCount_genCounter__Primary. | Entries: 1 | Class: art::Wrapper<mu2e::GenEventCount>
+  Title: mu2e::GenEventCount_genCounter__Primary.
+  Leaf: mu2e::GenEventCount_genCounter__Primary. | Type: art::Wrapper<mu2e::GenEventCount> | Entries (owning branch): 1 | Static length: 1
+  Sub-branches:
+    Branch 3: mu2e::GenEventCount_genCounter__Primary.present | Entries: 1 | Class: art::Wrapper<mu2e::GenEventCount>
+      Title: mu2e::GenEventCount_genCounter__Primary.present
+      Leaf: mu2e::GenEventCount_genCounter__Primary.present | Type: Bool_t | Entries (owning branch): 1 | Static length: 1
+    Branch 4: mu2e::GenEventCount_genCounter__Primary.rangeSetID | Entries: 1 | Class: art::Wrapper<mu2e::GenEventCount>
+      Title: mu2e::GenEventCount_genCounter__Primary.rangeSetID
+      Leaf: mu2e::GenEventCount_genCounter__Primary.rangeSetID | Type: UInt_t | Entries (owning branch): 1 | Static length: 1
+    Branch 5: mu2e::GenEventCount_genCounter__Primary.obj | Entries: 1 | Class: art::Wrapper<mu2e::GenEventCount>
+      Title: mu2e::GenEventCount_genCounter__Primary.obj
+      Leaf: mu2e::GenEventCount_genCounter__Primary.obj | Type: mu2e::GenEventCount | Entries (owning branch): 1 | Static length: 1
+----------------------------------------------------------------------------------------
+Report Totals
+Top-level branches: 2
+Total branches (including sub-branches): 5
+Total leaves: 5
+========================================================================================

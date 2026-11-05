@@ -1,0 +1,1054 @@
+========================================================================================
+ROOT TTree Structure Report
+========================================================================================
+Selected TTree path: EventNtuple/ntuple
+TTree name: ntuple
+TTree title: Mu2e Event Ntuple
+TTree entries: 50792
+----------------------------------------------------------------------------------------
+Branch and Leaf Structure
+----------------------------------------------------------------------------------------
+Branch 1: evtinfo | Entries: 50792 | Class: mu2e::EventInfo
+  Title: evtinfo
+  Leaf: evtinfo | Type: mu2e::EventInfo | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 2: event | Entries: 50792 | Class: mu2e::EventInfo
+      Title: event
+      Leaf: event | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+    Branch 3: run | Entries: 50792 | Class: mu2e::EventInfo
+      Title: run
+      Leaf: run | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+    Branch 4: subrun | Entries: 50792 | Class: mu2e::EventInfo
+      Title: subrun
+      Leaf: subrun | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+    Branch 5: nprotons | Entries: 50792 | Class: mu2e::EventInfo
+      Title: nprotons
+      Leaf: nprotons | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+    Branch 6: pbtime | Entries: 50792 | Class: mu2e::EventInfo
+      Title: pbtime
+      Leaf: pbtime | Type: Float_t | Entries (owning branch): 50792 | Static length: 1
+    Branch 7: pbterr | Entries: 50792 | Class: mu2e::EventInfo
+      Title: pbterr
+      Leaf: pbterr | Type: Float_t | Entries (owning branch): 50792 | Static length: 1
+Branch 8: evtinfomc | Entries: 50792 | Class: mu2e::EventInfoMC
+  Title: evtinfomc
+  Leaf: evtinfomc | Type: mu2e::EventInfoMC | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 9: nprotons | Entries: 50792 | Class: mu2e::EventInfoMC
+      Title: nprotons
+      Leaf: nprotons | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+    Branch 10: pbtime | Entries: 50792 | Class: mu2e::EventInfoMC
+      Title: pbtime
+      Leaf: pbtime | Type: Float_t | Entries (owning branch): 50792 | Static length: 1
+Branch 11: hitcount | Entries: 50792 | Class: mu2e::HitCount
+  Title: hitcount
+  Leaf: hitcount | Type: mu2e::HitCount | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 12: nsd | Entries: 50792 | Class: mu2e::HitCount
+      Title: nsd
+      Leaf: nsd | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+    Branch 13: nesel | Entries: 50792 | Class: mu2e::HitCount
+      Title: nesel
+      Leaf: nesel | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+    Branch 14: nrsel | Entries: 50792 | Class: mu2e::HitCount
+      Title: nrsel
+      Leaf: nrsel | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+    Branch 15: ntsel | Entries: 50792 | Class: mu2e::HitCount
+      Title: ntsel
+      Leaf: ntsel | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+    Branch 16: nbkg | Entries: 50792 | Class: mu2e::HitCount
+      Title: nbkg
+      Leaf: nbkg | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+Branch 17: tcnt.ntrk | Entries: 50792 | Class: (primitive/split branch)
+  Title: tcnt.ntrk/I
+  Leaf: tcnt.ntrk | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+Branch 18: trk | Entries: 50792 | Class: vector<mu2e::TrkInfo>
+  Title: trk_
+  Leaf: trk_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 19: trk.status | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: status[trk_]
+      Leaf: trk.status | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 20: trk.goodfit | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: goodfit[trk_]
+      Leaf: trk.goodfit | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 21: trk.seedalg | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: seedalg[trk_]
+      Leaf: trk.seedalg | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 22: trk.fitalg | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: fitalg[trk_]
+      Leaf: trk.fitalg | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 23: trk.pdg | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: pdg[trk_]
+      Leaf: trk.pdg | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 24: trk.nhits | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: nhits[trk_]
+      Leaf: trk.nhits | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 25: trk.ndof | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: ndof[trk_]
+      Leaf: trk.ndof | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 26: trk.nactive | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: nactive[trk_]
+      Leaf: trk.nactive | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 27: trk.ndouble | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: ndouble[trk_]
+      Leaf: trk.ndouble | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 28: trk.ndactive | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: ndactive[trk_]
+      Leaf: trk.ndactive | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 29: trk.nplanes | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: nplanes[trk_]
+      Leaf: trk.nplanes | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 30: trk.npanels | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: npanels[trk_]
+      Leaf: trk.npanels | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 31: trk.planespan | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: planespan[trk_]
+      Leaf: trk.planespan | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 32: trk.nnullambig | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: nnullambig[trk_]
+      Leaf: trk.nnullambig | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 33: trk.nmat | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: nmat[trk_]
+      Leaf: trk.nmat | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 34: trk.nmatactive | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: nmatactive[trk_]
+      Leaf: trk.nmatactive | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 35: trk.nesel | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: nesel[trk_]
+      Leaf: trk.nesel | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 36: trk.nrsel | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: nrsel[trk_]
+      Leaf: trk.nrsel | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 37: trk.ntsel | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: ntsel[trk_]
+      Leaf: trk.ntsel | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 38: trk.nbkg | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: nbkg[trk_]
+      Leaf: trk.nbkg | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 39: trk.nsel | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: nsel[trk_]
+      Leaf: trk.nsel | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 40: trk.nseg | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: nseg[trk_]
+      Leaf: trk.nseg | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 41: trk.nipaup | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: nipaup[trk_]
+      Leaf: trk.nipaup | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 42: trk.nipadown | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: nipadown[trk_]
+      Leaf: trk.nipadown | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 43: trk.nstup | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: nstup[trk_]
+      Leaf: trk.nstup | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 44: trk.nstdown | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: nstdown[trk_]
+      Leaf: trk.nstdown | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 45: trk.tsdainter | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: tsdainter[trk_]
+      Leaf: trk.tsdainter | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 46: trk.opainter | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: opainter[trk_]
+      Leaf: trk.opainter | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 47: trk.firststinter | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: firststinter[trk_]
+      Leaf: trk.firststinter | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 48: trk.chisq | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: chisq[trk_]
+      Leaf: trk.chisq | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 49: trk.fitcon | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: fitcon[trk_]
+      Leaf: trk.fitcon | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 50: trk.radlen | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: radlen[trk_]
+      Leaf: trk.radlen | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 51: trk.firsthit | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: firsthit[trk_]
+      Leaf: trk.firsthit | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 52: trk.lasthit | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: lasthit[trk_]
+      Leaf: trk.lasthit | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 53: trk.maxgap | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: maxgap[trk_]
+      Leaf: trk.maxgap | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 54: trk.avggap | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: avggap[trk_]
+      Leaf: trk.avggap | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+    Branch 55: trk.avgedep | Entries: 50792 | Class: mu2e::TrkInfo
+      Title: avgedep[trk_]
+      Leaf: trk.avgedep | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trk_
+Branch 56: trksegs | Entries: 50792 | Class: vector<vector<mu2e::TrkSegInfo> >
+  Title: trksegs
+  Leaf: trksegs | Type: vector<vector<mu2e::TrkSegInfo> > | Entries (owning branch): 50792 | Static length: 1
+Branch 57: trksegpars_lh | Entries: 50792 | Class: vector<vector<mu2e::LoopHelixInfo> >
+  Title: trksegpars_lh
+  Leaf: trksegpars_lh | Type: vector<vector<mu2e::LoopHelixInfo> > | Entries (owning branch): 50792 | Static length: 1
+Branch 58: trkdtdt | Entries: 50792 | Class: vector<mu2e::TrkDtDtInfo>
+  Title: trkdtdt_
+  Leaf: trkdtdt_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 59: trkdtdt.slope | Entries: 50792 | Class: mu2e::TrkDtDtInfo
+      Title: slope[trkdtdt_]
+      Leaf: trkdtdt.slope | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkdtdt_
+    Branch 60: trkdtdt.offset | Entries: 50792 | Class: mu2e::TrkDtDtInfo
+      Title: offset[trkdtdt_]
+      Leaf: trkdtdt.offset | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkdtdt_
+    Branch 61: trkdtdt.slopeUnc | Entries: 50792 | Class: mu2e::TrkDtDtInfo
+      Title: slopeUnc[trkdtdt_]
+      Leaf: trkdtdt.slopeUnc | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkdtdt_
+    Branch 62: trkdtdt.chisq | Entries: 50792 | Class: mu2e::TrkDtDtInfo
+      Title: chisq[trkdtdt_]
+      Leaf: trkdtdt.chisq | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkdtdt_
+    Branch 63: trkdtdt.dof | Entries: 50792 | Class: mu2e::TrkDtDtInfo
+      Title: dof[trkdtdt_]
+      Leaf: trkdtdt.dof | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkdtdt_
+Branch 64: trkcalohit | Entries: 50792 | Class: vector<mu2e::TrkCaloHitInfo>
+  Title: trkcalohit_
+  Leaf: trkcalohit_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 65: trkcalohit.active | Entries: 50792 | Class: mu2e::TrkCaloHitInfo
+      Title: active[trkcalohit_]
+      Leaf: trkcalohit.active | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 66: trkcalohit.did | Entries: 50792 | Class: mu2e::TrkCaloHitInfo
+      Title: did[trkcalohit_]
+      Leaf: trkcalohit.did | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 67: trkcalohit.poca.fCoordinates.fX | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fX[trkcalohit_]
+      Leaf: trkcalohit.poca.fCoordinates.fX | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 68: trkcalohit.poca.fCoordinates.fY | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fY[trkcalohit_]
+      Leaf: trkcalohit.poca.fCoordinates.fY | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 69: trkcalohit.poca.fCoordinates.fZ | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fZ[trkcalohit_]
+      Leaf: trkcalohit.poca.fCoordinates.fZ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 70: trkcalohit.mom.fCoordinates.fX | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fX[trkcalohit_]
+      Leaf: trkcalohit.mom.fCoordinates.fX | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 71: trkcalohit.mom.fCoordinates.fY | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fY[trkcalohit_]
+      Leaf: trkcalohit.mom.fCoordinates.fY | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 72: trkcalohit.mom.fCoordinates.fZ | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fZ[trkcalohit_]
+      Leaf: trkcalohit.mom.fCoordinates.fZ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 73: trkcalohit.cdepth | Entries: 50792 | Class: mu2e::TrkCaloHitInfo
+      Title: cdepth[trkcalohit_]
+      Leaf: trkcalohit.cdepth | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 74: trkcalohit.trkdepth | Entries: 50792 | Class: mu2e::TrkCaloHitInfo
+      Title: trkdepth[trkcalohit_]
+      Leaf: trkcalohit.trkdepth | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 75: trkcalohit.dphidot | Entries: 50792 | Class: mu2e::TrkCaloHitInfo
+      Title: dphidot[trkcalohit_]
+      Leaf: trkcalohit.dphidot | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 76: trkcalohit.doca | Entries: 50792 | Class: mu2e::TrkCaloHitInfo
+      Title: doca[trkcalohit_]
+      Leaf: trkcalohit.doca | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 77: trkcalohit.dt | Entries: 50792 | Class: mu2e::TrkCaloHitInfo
+      Title: dt[trkcalohit_]
+      Leaf: trkcalohit.dt | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 78: trkcalohit.ptoca | Entries: 50792 | Class: mu2e::TrkCaloHitInfo
+      Title: ptoca[trkcalohit_]
+      Leaf: trkcalohit.ptoca | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 79: trkcalohit.tocavar | Entries: 50792 | Class: mu2e::TrkCaloHitInfo
+      Title: tocavar[trkcalohit_]
+      Leaf: trkcalohit.tocavar | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 80: trkcalohit.tresid | Entries: 50792 | Class: mu2e::TrkCaloHitInfo
+      Title: tresid[trkcalohit_]
+      Leaf: trkcalohit.tresid | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 81: trkcalohit.tresidmvar | Entries: 50792 | Class: mu2e::TrkCaloHitInfo
+      Title: tresidmvar[trkcalohit_]
+      Leaf: trkcalohit.tresidmvar | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 82: trkcalohit.tresidpvar | Entries: 50792 | Class: mu2e::TrkCaloHitInfo
+      Title: tresidpvar[trkcalohit_]
+      Leaf: trkcalohit.tresidpvar | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 83: trkcalohit.ctime | Entries: 50792 | Class: mu2e::TrkCaloHitInfo
+      Title: ctime[trkcalohit_]
+      Leaf: trkcalohit.ctime | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 84: trkcalohit.ctimeerr | Entries: 50792 | Class: mu2e::TrkCaloHitInfo
+      Title: ctimeerr[trkcalohit_]
+      Leaf: trkcalohit.ctimeerr | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 85: trkcalohit.csize | Entries: 50792 | Class: mu2e::TrkCaloHitInfo
+      Title: csize[trkcalohit_]
+      Leaf: trkcalohit.csize | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 86: trkcalohit.edep | Entries: 50792 | Class: mu2e::TrkCaloHitInfo
+      Title: edep[trkcalohit_]
+      Leaf: trkcalohit.edep | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+    Branch 87: trkcalohit.edeperr | Entries: 50792 | Class: mu2e::TrkCaloHitInfo
+      Title: edeperr[trkcalohit_]
+      Leaf: trkcalohit.edeperr | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohit_
+Branch 88: trkqual | Entries: 50792 | Class: vector<mu2e::MVAResultInfo>
+  Title: trkqual_
+  Leaf: trkqual_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 89: trkqual.valid | Entries: 50792 | Class: mu2e::MVAResultInfo
+      Title: valid[trkqual_]
+      Leaf: trkqual.valid | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkqual_
+    Branch 90: trkqual.result | Entries: 50792 | Class: mu2e::MVAResultInfo
+      Title: result[trkqual_]
+      Leaf: trkqual.result | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkqual_
+Branch 91: trkpid | Entries: 50792 | Class: vector<mu2e::MVAResultInfo>
+  Title: trkpid_
+  Leaf: trkpid_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 92: trkpid.valid | Entries: 50792 | Class: mu2e::MVAResultInfo
+      Title: valid[trkpid_]
+      Leaf: trkpid.valid | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkpid_
+    Branch 93: trkpid.result | Entries: 50792 | Class: mu2e::MVAResultInfo
+      Title: result[trkpid_]
+      Leaf: trkpid.result | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkpid_
+Branch 94: trkhits | Entries: 50792 | Class: vector<vector<mu2e::TrkStrawHitInfo> >
+  Title: trkhits
+  Leaf: trkhits | Type: vector<vector<mu2e::TrkStrawHitInfo> > | Entries (owning branch): 50792 | Static length: 1
+Branch 95: trkmats | Entries: 50792 | Class: vector<vector<mu2e::TrkStrawMatInfo> >
+  Title: trkmats
+  Leaf: trkmats | Type: vector<vector<mu2e::TrkStrawMatInfo> > | Entries (owning branch): 50792 | Static length: 1
+Branch 96: trkmc | Entries: 50792 | Class: vector<mu2e::TrkInfoMC>
+  Title: trkmc_
+  Leaf: trkmc_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 97: trkmc.valid | Entries: 50792 | Class: mu2e::TrkInfoMC
+      Title: valid[trkmc_]
+      Leaf: trkmc.valid | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkmc_
+    Branch 98: trkmc.ndigi | Entries: 50792 | Class: mu2e::TrkInfoMC
+      Title: ndigi[trkmc_]
+      Leaf: trkmc.ndigi | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkmc_
+    Branch 99: trkmc.ndigigood | Entries: 50792 | Class: mu2e::TrkInfoMC
+      Title: ndigigood[trkmc_]
+      Leaf: trkmc.ndigigood | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkmc_
+    Branch 100: trkmc.nhits | Entries: 50792 | Class: mu2e::TrkInfoMC
+      Title: nhits[trkmc_]
+      Leaf: trkmc.nhits | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkmc_
+    Branch 101: trkmc.nactive | Entries: 50792 | Class: mu2e::TrkInfoMC
+      Title: nactive[trkmc_]
+      Leaf: trkmc.nactive | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkmc_
+    Branch 102: trkmc.nambig | Entries: 50792 | Class: mu2e::TrkInfoMC
+      Title: nambig[trkmc_]
+      Leaf: trkmc.nambig | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkmc_
+    Branch 103: trkmc.nipaup | Entries: 50792 | Class: mu2e::TrkInfoMC
+      Title: nipaup[trkmc_]
+      Leaf: trkmc.nipaup | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkmc_
+    Branch 104: trkmc.nipadown | Entries: 50792 | Class: mu2e::TrkInfoMC
+      Title: nipadown[trkmc_]
+      Leaf: trkmc.nipadown | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkmc_
+    Branch 105: trkmc.nstup | Entries: 50792 | Class: mu2e::TrkInfoMC
+      Title: nstup[trkmc_]
+      Leaf: trkmc.nstup | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkmc_
+    Branch 106: trkmc.nstdown | Entries: 50792 | Class: mu2e::TrkInfoMC
+      Title: nstdown[trkmc_]
+      Leaf: trkmc.nstdown | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkmc_
+    Branch 107: trkmc.maxr | Entries: 50792 | Class: mu2e::TrkInfoMC
+      Title: maxr[trkmc_]
+      Leaf: trkmc.maxr | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkmc_
+    Branch 108: trkmc.rad | Entries: 50792 | Class: mu2e::TrkInfoMC
+      Title: rad[trkmc_]
+      Leaf: trkmc.rad | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkmc_
+    Branch 109: trkmc.lam | Entries: 50792 | Class: mu2e::TrkInfoMC
+      Title: lam[trkmc_]
+      Leaf: trkmc.lam | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkmc_
+    Branch 110: trkmc.cx | Entries: 50792 | Class: mu2e::TrkInfoMC
+      Title: cx[trkmc_]
+      Leaf: trkmc.cx | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkmc_
+    Branch 111: trkmc.cy | Entries: 50792 | Class: mu2e::TrkInfoMC
+      Title: cy[trkmc_]
+      Leaf: trkmc.cy | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkmc_
+    Branch 112: trkmc.phi0 | Entries: 50792 | Class: mu2e::TrkInfoMC
+      Title: phi0[trkmc_]
+      Leaf: trkmc.phi0 | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkmc_
+    Branch 113: trkmc.t0 | Entries: 50792 | Class: mu2e::TrkInfoMC
+      Title: t0[trkmc_]
+      Leaf: trkmc.t0 | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkmc_
+Branch 114: trkmcsim | Entries: 50792 | Class: vector<vector<mu2e::SimInfo> >
+  Title: trkmcsim
+  Leaf: trkmcsim | Type: vector<vector<mu2e::SimInfo> > | Entries (owning branch): 50792 | Static length: 1
+Branch 115: trkmcvd | Entries: 50792 | Class: vector<vector<mu2e::MCStepInfo> >
+  Title: trkmcvd
+  Leaf: trkmcvd | Type: vector<vector<mu2e::MCStepInfo> > | Entries (owning branch): 50792 | Static length: 1
+Branch 116: trkcalohitmc | Entries: 50792 | Class: vector<mu2e::CaloClusterInfoMC>
+  Title: trkcalohitmc_
+  Leaf: trkcalohitmc_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 117: trkcalohitmc.nhits | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: nhits[trkcalohitmc_]
+      Leaf: trkcalohitmc.nhits | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohitmc_
+    Branch 118: trkcalohitmc.nsim | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: nsim[trkcalohitmc_]
+      Leaf: trkcalohitmc.nsim | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohitmc_
+    Branch 119: trkcalohitmc.etot | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: etot[trkcalohitmc_]
+      Leaf: trkcalohitmc.etot | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohitmc_
+    Branch 120: trkcalohitmc.tavg | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: tavg[trkcalohitmc_]
+      Leaf: trkcalohitmc.tavg | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohitmc_
+    Branch 121: trkcalohitmc.eprimary | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: eprimary[trkcalohitmc_]
+      Leaf: trkcalohitmc.eprimary | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohitmc_
+    Branch 122: trkcalohitmc.tprimary | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: tprimary[trkcalohitmc_]
+      Leaf: trkcalohitmc.tprimary | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohitmc_
+    Branch 123: trkcalohitmc.simParticleIds | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: simParticleIds[trkcalohitmc_]
+      Leaf: trkcalohitmc.simParticleIds | Type: vector<int> | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohitmc_
+    Branch 124: trkcalohitmc.simRelRels | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: simRelRels[trkcalohitmc_]
+      Leaf: trkcalohitmc.simRelRels | Type: vector<signed char> | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohitmc_
+    Branch 125: trkcalohitmc.simRelRems | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: simRelRems[trkcalohitmc_]
+      Leaf: trkcalohitmc.simRelRems | Type: vector<signed char> | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohitmc_
+    Branch 126: trkcalohitmc.hits_ | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: hits_[trkcalohitmc_]
+      Leaf: trkcalohitmc.hits_ | Type: vector<int> | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohitmc_
+    Branch 127: trkcalohitmc.prel._rel | Entries: 50792 | Class: mu2e::MCRelationship
+      Title: _rel[trkcalohitmc_]
+      Leaf: trkcalohitmc.prel._rel | Type: Char_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohitmc_
+    Branch 128: trkcalohitmc.prel._rem | Entries: 50792 | Class: mu2e::MCRelationship
+      Title: _rem[trkcalohitmc_]
+      Leaf: trkcalohitmc.prel._rem | Type: Char_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by trkcalohitmc_
+Branch 129: trkhitsmc | Entries: 50792 | Class: vector<vector<mu2e::TrkStrawHitInfoMC> >
+  Title: trkhitsmc
+  Leaf: trkhitsmc | Type: vector<vector<mu2e::TrkStrawHitInfoMC> > | Entries (owning branch): 50792 | Static length: 1
+Branch 130: trksegsmc | Entries: 50792 | Class: vector<vector<mu2e::SurfaceStepInfo> >
+  Title: trksegsmc
+  Leaf: trksegsmc | Type: vector<vector<mu2e::SurfaceStepInfo> > | Entries (owning branch): 50792 | Static length: 1
+Branch 131: caloclusters | Entries: 50792 | Class: vector<mu2e::CaloClusterInfo>
+  Title: caloclusters_
+  Leaf: caloclusters_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 132: caloclusters.diskID_ | Entries: 50792 | Class: mu2e::CaloClusterInfo
+      Title: diskID_[caloclusters_]
+      Leaf: caloclusters.diskID_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclusters_
+    Branch 133: caloclusters.time_ | Entries: 50792 | Class: mu2e::CaloClusterInfo
+      Title: time_[caloclusters_]
+      Leaf: caloclusters.time_ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclusters_
+    Branch 134: caloclusters.timeErr_ | Entries: 50792 | Class: mu2e::CaloClusterInfo
+      Title: timeErr_[caloclusters_]
+      Leaf: caloclusters.timeErr_ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclusters_
+    Branch 135: caloclusters.energyDep_ | Entries: 50792 | Class: mu2e::CaloClusterInfo
+      Title: energyDep_[caloclusters_]
+      Leaf: caloclusters.energyDep_ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclusters_
+    Branch 136: caloclusters.energyDepErr_ | Entries: 50792 | Class: mu2e::CaloClusterInfo
+      Title: energyDepErr_[caloclusters_]
+      Leaf: caloclusters.energyDepErr_ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclusters_
+    Branch 137: caloclusters.cog_.fCoordinates.fX | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fX[caloclusters_]
+      Leaf: caloclusters.cog_.fCoordinates.fX | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclusters_
+    Branch 138: caloclusters.cog_.fCoordinates.fY | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fY[caloclusters_]
+      Leaf: caloclusters.cog_.fCoordinates.fY | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclusters_
+    Branch 139: caloclusters.cog_.fCoordinates.fZ | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fZ[caloclusters_]
+      Leaf: caloclusters.cog_.fCoordinates.fZ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclusters_
+    Branch 140: caloclusters.hits_ | Entries: 50792 | Class: mu2e::CaloClusterInfo
+      Title: hits_[caloclusters_]
+      Leaf: caloclusters.hits_ | Type: vector<int> | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclusters_
+    Branch 141: caloclusters.size_ | Entries: 50792 | Class: mu2e::CaloClusterInfo
+      Title: size_[caloclusters_]
+      Leaf: caloclusters.size_ | Type: UInt_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclusters_
+    Branch 142: caloclusters.isSplit_ | Entries: 50792 | Class: mu2e::CaloClusterInfo
+      Title: isSplit_[caloclusters_]
+      Leaf: caloclusters.isSplit_ | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclusters_
+Branch 143: calohits | Entries: 50792 | Class: vector<mu2e::CaloHitInfo>
+  Title: calohits_
+  Leaf: calohits_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 144: calohits.crystalId_ | Entries: 50792 | Class: mu2e::CaloHitInfo
+      Title: crystalId_[calohits_]
+      Leaf: calohits.crystalId_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohits_
+    Branch 145: calohits.nSiPMs_ | Entries: 50792 | Class: mu2e::CaloHitInfo
+      Title: nSiPMs_[calohits_]
+      Leaf: calohits.nSiPMs_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohits_
+    Branch 146: calohits.time_ | Entries: 50792 | Class: mu2e::CaloHitInfo
+      Title: time_[calohits_]
+      Leaf: calohits.time_ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohits_
+    Branch 147: calohits.timeErr_ | Entries: 50792 | Class: mu2e::CaloHitInfo
+      Title: timeErr_[calohits_]
+      Leaf: calohits.timeErr_ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohits_
+    Branch 148: calohits.eDep_ | Entries: 50792 | Class: mu2e::CaloHitInfo
+      Title: eDep_[calohits_]
+      Leaf: calohits.eDep_ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohits_
+    Branch 149: calohits.eDepErr_ | Entries: 50792 | Class: mu2e::CaloHitInfo
+      Title: eDepErr_[calohits_]
+      Leaf: calohits.eDepErr_ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohits_
+    Branch 150: calohits.recoDigis_ | Entries: 50792 | Class: mu2e::CaloHitInfo
+      Title: recoDigis_[calohits_]
+      Leaf: calohits.recoDigis_ | Type: vector<int> | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohits_
+    Branch 151: calohits.clusterIdx_ | Entries: 50792 | Class: mu2e::CaloHitInfo
+      Title: clusterIdx_[calohits_]
+      Leaf: calohits.clusterIdx_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohits_
+    Branch 152: calohits.crystalPos_.fCoordinates.fX | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fX[calohits_]
+      Leaf: calohits.crystalPos_.fCoordinates.fX | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohits_
+    Branch 153: calohits.crystalPos_.fCoordinates.fY | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fY[calohits_]
+      Leaf: calohits.crystalPos_.fCoordinates.fY | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohits_
+    Branch 154: calohits.crystalPos_.fCoordinates.fZ | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fZ[calohits_]
+      Leaf: calohits.crystalPos_.fCoordinates.fZ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohits_
+Branch 155: caloclustersmc | Entries: 50792 | Class: vector<mu2e::CaloClusterInfoMC>
+  Title: caloclustersmc_
+  Leaf: caloclustersmc_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 156: caloclustersmc.nhits | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: nhits[caloclustersmc_]
+      Leaf: caloclustersmc.nhits | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclustersmc_
+    Branch 157: caloclustersmc.nsim | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: nsim[caloclustersmc_]
+      Leaf: caloclustersmc.nsim | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclustersmc_
+    Branch 158: caloclustersmc.etot | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: etot[caloclustersmc_]
+      Leaf: caloclustersmc.etot | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclustersmc_
+    Branch 159: caloclustersmc.tavg | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: tavg[caloclustersmc_]
+      Leaf: caloclustersmc.tavg | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclustersmc_
+    Branch 160: caloclustersmc.eprimary | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: eprimary[caloclustersmc_]
+      Leaf: caloclustersmc.eprimary | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclustersmc_
+    Branch 161: caloclustersmc.tprimary | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: tprimary[caloclustersmc_]
+      Leaf: caloclustersmc.tprimary | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclustersmc_
+    Branch 162: caloclustersmc.simParticleIds | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: simParticleIds[caloclustersmc_]
+      Leaf: caloclustersmc.simParticleIds | Type: vector<int> | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclustersmc_
+    Branch 163: caloclustersmc.simRelRels | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: simRelRels[caloclustersmc_]
+      Leaf: caloclustersmc.simRelRels | Type: vector<signed char> | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclustersmc_
+    Branch 164: caloclustersmc.simRelRems | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: simRelRems[caloclustersmc_]
+      Leaf: caloclustersmc.simRelRems | Type: vector<signed char> | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclustersmc_
+    Branch 165: caloclustersmc.hits_ | Entries: 50792 | Class: mu2e::CaloClusterInfoMC
+      Title: hits_[caloclustersmc_]
+      Leaf: caloclustersmc.hits_ | Type: vector<int> | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclustersmc_
+    Branch 166: caloclustersmc.prel._rel | Entries: 50792 | Class: mu2e::MCRelationship
+      Title: _rel[caloclustersmc_]
+      Leaf: caloclustersmc.prel._rel | Type: Char_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclustersmc_
+    Branch 167: caloclustersmc.prel._rem | Entries: 50792 | Class: mu2e::MCRelationship
+      Title: _rem[caloclustersmc_]
+      Leaf: caloclustersmc.prel._rem | Type: Char_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by caloclustersmc_
+Branch 168: calohitsmc | Entries: 50792 | Class: vector<mu2e::CaloHitInfoMC>
+  Title: calohitsmc_
+  Leaf: calohitsmc_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 169: calohitsmc.crystalID_ | Entries: 50792 | Class: mu2e::CaloHitInfoMC
+      Title: crystalID_[calohitsmc_]
+      Leaf: calohitsmc.crystalID_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohitsmc_
+    Branch 170: calohitsmc.nsim | Entries: 50792 | Class: mu2e::CaloHitInfoMC
+      Title: nsim[calohitsmc_]
+      Leaf: calohitsmc.nsim | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohitsmc_
+    Branch 171: calohitsmc.eDep | Entries: 50792 | Class: mu2e::CaloHitInfoMC
+      Title: eDep[calohitsmc_]
+      Leaf: calohitsmc.eDep | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohitsmc_
+    Branch 172: calohitsmc.eDepG4 | Entries: 50792 | Class: mu2e::CaloHitInfoMC
+      Title: eDepG4[calohitsmc_]
+      Leaf: calohitsmc.eDepG4 | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohitsmc_
+    Branch 173: calohitsmc.eprimary | Entries: 50792 | Class: mu2e::CaloHitInfoMC
+      Title: eprimary[calohitsmc_]
+      Leaf: calohitsmc.eprimary | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohitsmc_
+    Branch 174: calohitsmc.tprimary | Entries: 50792 | Class: mu2e::CaloHitInfoMC
+      Title: tprimary[calohitsmc_]
+      Leaf: calohitsmc.tprimary | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohitsmc_
+    Branch 175: calohitsmc.eDeps | Entries: 50792 | Class: mu2e::CaloHitInfoMC
+      Title: eDeps[calohitsmc_]
+      Leaf: calohitsmc.eDeps | Type: vector<float> | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohitsmc_
+    Branch 176: calohitsmc.tDeps | Entries: 50792 | Class: mu2e::CaloHitInfoMC
+      Title: tDeps[calohitsmc_]
+      Leaf: calohitsmc.tDeps | Type: vector<float> | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohitsmc_
+    Branch 177: calohitsmc.momentumIns | Entries: 50792 | Class: mu2e::CaloHitInfoMC
+      Title: momentumIns[calohitsmc_]
+      Leaf: calohitsmc.momentumIns | Type: vector<float> | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohitsmc_
+    Branch 178: calohitsmc.simParticleIds | Entries: 50792 | Class: mu2e::CaloHitInfoMC
+      Title: simParticleIds[calohitsmc_]
+      Leaf: calohitsmc.simParticleIds | Type: vector<int> | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohitsmc_
+    Branch 179: calohitsmc.simRelRels | Entries: 50792 | Class: mu2e::CaloHitInfoMC
+      Title: simRelRels[calohitsmc_]
+      Leaf: calohitsmc.simRelRels | Type: vector<signed char> | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohitsmc_
+    Branch 180: calohitsmc.simRelRems | Entries: 50792 | Class: mu2e::CaloHitInfoMC
+      Title: simRelRems[calohitsmc_]
+      Leaf: calohitsmc.simRelRems | Type: vector<signed char> | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohitsmc_
+    Branch 181: calohitsmc.clusterIdx_ | Entries: 50792 | Class: mu2e::CaloHitInfoMC
+      Title: clusterIdx_[calohitsmc_]
+      Leaf: calohitsmc.clusterIdx_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohitsmc_
+    Branch 182: calohitsmc.caloHitIdx_ | Entries: 50792 | Class: mu2e::CaloHitInfoMC
+      Title: caloHitIdx_[calohitsmc_]
+      Leaf: calohitsmc.caloHitIdx_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calohitsmc_
+Branch 183: calomcsim | Entries: 50792 | Class: vector<mu2e::SimInfo>
+  Title: calomcsim_
+  Leaf: calomcsim_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 184: calomcsim.valid | Entries: 50792 | Class: mu2e::SimInfo
+      Title: valid[calomcsim_]
+      Leaf: calomcsim.valid | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 185: calomcsim.id | Entries: 50792 | Class: mu2e::SimInfo
+      Title: id[calomcsim_]
+      Leaf: calomcsim.id | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 186: calomcsim.nhits | Entries: 50792 | Class: mu2e::SimInfo
+      Title: nhits[calomcsim_]
+      Leaf: calomcsim.nhits | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 187: calomcsim.nactive | Entries: 50792 | Class: mu2e::SimInfo
+      Title: nactive[calomcsim_]
+      Leaf: calomcsim.nactive | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 188: calomcsim.rank | Entries: 50792 | Class: mu2e::SimInfo
+      Title: rank[calomcsim_]
+      Leaf: calomcsim.rank | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 189: calomcsim.pdg | Entries: 50792 | Class: mu2e::SimInfo
+      Title: pdg[calomcsim_]
+      Leaf: calomcsim.pdg | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 190: calomcsim.startCode | Entries: 50792 | Class: mu2e::SimInfo
+      Title: startCode[calomcsim_]
+      Leaf: calomcsim.startCode | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 191: calomcsim.stopCode | Entries: 50792 | Class: mu2e::SimInfo
+      Title: stopCode[calomcsim_]
+      Leaf: calomcsim.stopCode | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 192: calomcsim.gen | Entries: 50792 | Class: mu2e::SimInfo
+      Title: gen[calomcsim_]
+      Leaf: calomcsim.gen | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 193: calomcsim.time | Entries: 50792 | Class: mu2e::SimInfo
+      Title: time[calomcsim_]
+      Leaf: calomcsim.time | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 194: calomcsim.index | Entries: 50792 | Class: mu2e::SimInfo
+      Title: index[calomcsim_]
+      Leaf: calomcsim.index | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 195: calomcsim.mom.fCoordinates.fX | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fX[calomcsim_]
+      Leaf: calomcsim.mom.fCoordinates.fX | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 196: calomcsim.mom.fCoordinates.fY | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fY[calomcsim_]
+      Leaf: calomcsim.mom.fCoordinates.fY | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 197: calomcsim.mom.fCoordinates.fZ | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fZ[calomcsim_]
+      Leaf: calomcsim.mom.fCoordinates.fZ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 198: calomcsim.pos.fCoordinates.fX | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fX[calomcsim_]
+      Leaf: calomcsim.pos.fCoordinates.fX | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 199: calomcsim.pos.fCoordinates.fY | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fY[calomcsim_]
+      Leaf: calomcsim.pos.fCoordinates.fY | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 200: calomcsim.pos.fCoordinates.fZ | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fZ[calomcsim_]
+      Leaf: calomcsim.pos.fCoordinates.fZ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 201: calomcsim.endmom.fCoordinates.fX | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fX[calomcsim_]
+      Leaf: calomcsim.endmom.fCoordinates.fX | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 202: calomcsim.endmom.fCoordinates.fY | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fY[calomcsim_]
+      Leaf: calomcsim.endmom.fCoordinates.fY | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 203: calomcsim.endmom.fCoordinates.fZ | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fZ[calomcsim_]
+      Leaf: calomcsim.endmom.fCoordinates.fZ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 204: calomcsim.endpos.fCoordinates.fX | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fX[calomcsim_]
+      Leaf: calomcsim.endpos.fCoordinates.fX | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 205: calomcsim.endpos.fCoordinates.fY | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fY[calomcsim_]
+      Leaf: calomcsim.endpos.fCoordinates.fY | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 206: calomcsim.endpos.fCoordinates.fZ | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fZ[calomcsim_]
+      Leaf: calomcsim.endpos.fCoordinates.fZ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 207: calomcsim.prirel._rel | Entries: 50792 | Class: mu2e::MCRelationship
+      Title: _rel[calomcsim_]
+      Leaf: calomcsim.prirel._rel | Type: Char_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 208: calomcsim.prirel._rem | Entries: 50792 | Class: mu2e::MCRelationship
+      Title: _rem[calomcsim_]
+      Leaf: calomcsim.prirel._rem | Type: Char_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 209: calomcsim.trkrel._rel | Entries: 50792 | Class: mu2e::MCRelationship
+      Title: _rel[calomcsim_]
+      Leaf: calomcsim.trkrel._rel | Type: Char_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+    Branch 210: calomcsim.trkrel._rem | Entries: 50792 | Class: mu2e::MCRelationship
+      Title: _rem[calomcsim_]
+      Leaf: calomcsim.trkrel._rem | Type: Char_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by calomcsim_
+Branch 211: crvsummary | Entries: 50792 | Class: mu2e::CrvSummaryReco
+  Title: crvsummary
+  Leaf: crvsummary | Type: mu2e::CrvSummaryReco | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 212: totalPEs | Entries: 50792 | Class: mu2e::CrvSummaryReco
+      Title: totalPEs
+      Leaf: totalPEs | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+    Branch 213: nHitCounters | Entries: 50792 | Class: mu2e::CrvSummaryReco
+      Title: nHitCounters
+      Leaf: nHitCounters | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+Branch 214: crvcoincs | Entries: 50792 | Class: vector<mu2e::CrvHitInfoReco>
+  Title: crvcoincs_
+  Leaf: crvcoincs_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 215: crvcoincs.sectorType | Entries: 50792 | Class: mu2e::CrvHitInfoReco
+      Title: sectorType[crvcoincs_]
+      Leaf: crvcoincs.sectorType | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincs_
+    Branch 216: crvcoincs.hitPosAndTimeCalculated | Entries: 50792 | Class: mu2e::CrvHitInfoReco
+      Title: hitPosAndTimeCalculated[crvcoincs_]
+      Leaf: crvcoincs.hitPosAndTimeCalculated | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincs_
+    Branch 217: crvcoincs.pos.fCoordinates.fX | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fX[crvcoincs_]
+      Leaf: crvcoincs.pos.fCoordinates.fX | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincs_
+    Branch 218: crvcoincs.pos.fCoordinates.fY | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fY[crvcoincs_]
+      Leaf: crvcoincs.pos.fCoordinates.fY | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincs_
+    Branch 219: crvcoincs.pos.fCoordinates.fZ | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fZ[crvcoincs_]
+      Leaf: crvcoincs.pos.fCoordinates.fZ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincs_
+    Branch 220: crvcoincs.timeStart | Entries: 50792 | Class: mu2e::CrvHitInfoReco
+      Title: timeStart[crvcoincs_]
+      Leaf: crvcoincs.timeStart | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincs_
+    Branch 221: crvcoincs.timeEnd | Entries: 50792 | Class: mu2e::CrvHitInfoReco
+      Title: timeEnd[crvcoincs_]
+      Leaf: crvcoincs.timeEnd | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincs_
+    Branch 222: crvcoincs.time | Entries: 50792 | Class: mu2e::CrvHitInfoReco
+      Title: time[crvcoincs_]
+      Leaf: crvcoincs.time | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincs_
+    Branch 223: crvcoincs.PEs | Entries: 50792 | Class: mu2e::CrvHitInfoReco
+      Title: PEs[crvcoincs_]
+      Leaf: crvcoincs.PEs | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincs_
+    Branch 224: crvcoincs.PEsPerLayer[4] | Entries: 50792 | Class: mu2e::CrvHitInfoReco
+      Title: PEsPerLayer[crvcoincs_]
+      Leaf: crvcoincs.PEsPerLayer | Type: Float_t | Entries (owning branch): 50792 | Static length: 4, variable length controlled by crvcoincs_
+    Branch 225: crvcoincs.sidePEsPerLayer[8] | Entries: 50792 | Class: mu2e::CrvHitInfoReco
+      Title: sidePEsPerLayer[crvcoincs_]
+      Leaf: crvcoincs.sidePEsPerLayer | Type: Float_t | Entries (owning branch): 50792 | Static length: 8, variable length controlled by crvcoincs_
+    Branch 226: crvcoincs.sidePulses[2] | Entries: 50792 | Class: mu2e::CrvHitInfoReco
+      Title: sidePulses[crvcoincs_]
+      Leaf: crvcoincs.sidePulses | Type: ULong_t | Entries (owning branch): 50792 | Static length: 2, variable length controlled by crvcoincs_
+    Branch 227: crvcoincs.sidePEs[2] | Entries: 50792 | Class: mu2e::CrvHitInfoReco
+      Title: sidePEs[crvcoincs_]
+      Leaf: crvcoincs.sidePEs | Type: Float_t | Entries (owning branch): 50792 | Static length: 2, variable length controlled by crvcoincs_
+    Branch 228: crvcoincs.sideTimes[2] | Entries: 50792 | Class: mu2e::CrvHitInfoReco
+      Title: sideTimes[crvcoincs_]
+      Leaf: crvcoincs.sideTimes | Type: Float_t | Entries (owning branch): 50792 | Static length: 2, variable length controlled by crvcoincs_
+    Branch 229: crvcoincs.nHits | Entries: 50792 | Class: mu2e::CrvHitInfoReco
+      Title: nHits[crvcoincs_]
+      Leaf: crvcoincs.nHits | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincs_
+    Branch 230: crvcoincs.nLayers | Entries: 50792 | Class: mu2e::CrvHitInfoReco
+      Title: nLayers[crvcoincs_]
+      Leaf: crvcoincs.nLayers | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincs_
+    Branch 231: crvcoincs.angle | Entries: 50792 | Class: mu2e::CrvHitInfoReco
+      Title: angle[crvcoincs_]
+      Leaf: crvcoincs.angle | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincs_
+Branch 232: crvsummarymc | Entries: 50792 | Class: mu2e::CrvSummaryMC
+  Title: crvsummarymc
+  Leaf: crvsummarymc | Type: mu2e::CrvSummaryMC | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 233: totalEnergyDeposited | Entries: 50792 | Class: mu2e::CrvSummaryMC
+      Title: totalEnergyDeposited
+      Leaf: totalEnergyDeposited | Type: Double_t | Entries (owning branch): 50792 | Static length: 1
+    Branch 234: minPathLayer | Entries: 50792 | Class: mu2e::CrvSummaryMC
+      Title: minPathLayer
+      Leaf: minPathLayer | Type: Double_t | Entries (owning branch): 50792 | Static length: 1
+    Branch 235: maxPathLayer | Entries: 50792 | Class: mu2e::CrvSummaryMC
+      Title: maxPathLayer
+      Leaf: maxPathLayer | Type: Double_t | Entries (owning branch): 50792 | Static length: 1
+    Branch 236: nHitCounters | Entries: 50792 | Class: mu2e::CrvSummaryMC
+      Title: nHitCounters
+      Leaf: nHitCounters | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+    Branch 237: pos | Entries: 50792 | Class: mu2e::CrvSummaryMC
+      Title: pos
+      Sub-branches:
+        Branch 238: pos.fCoordinates.fX | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+          Title: pos.fCoordinates.fX
+          Leaf: pos.fCoordinates.fX | Type: Float_t | Entries (owning branch): 50792 | Static length: 1
+        Branch 239: pos.fCoordinates.fY | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+          Title: pos.fCoordinates.fY
+          Leaf: pos.fCoordinates.fY | Type: Float_t | Entries (owning branch): 50792 | Static length: 1
+        Branch 240: pos.fCoordinates.fZ | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+          Title: pos.fCoordinates.fZ
+          Leaf: pos.fCoordinates.fZ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1
+    Branch 241: sectorNumber | Entries: 50792 | Class: mu2e::CrvSummaryMC
+      Title: sectorNumber
+      Leaf: sectorNumber | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+    Branch 242: sectorType | Entries: 50792 | Class: mu2e::CrvSummaryMC
+      Title: sectorType
+      Leaf: sectorType | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+    Branch 243: pdgId | Entries: 50792 | Class: mu2e::CrvSummaryMC
+      Title: pdgId
+      Leaf: pdgId | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+Branch 244: crvcoincsmc | Entries: 50792 | Class: vector<mu2e::CrvHitInfoMC>
+  Title: crvcoincsmc_
+  Leaf: crvcoincsmc_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 245: crvcoincsmc.valid | Entries: 50792 | Class: mu2e::CrvHitInfoMC
+      Title: valid[crvcoincsmc_]
+      Leaf: crvcoincsmc.valid | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 246: crvcoincsmc.pdgId | Entries: 50792 | Class: mu2e::CrvHitInfoMC
+      Title: pdgId[crvcoincsmc_]
+      Leaf: crvcoincsmc.pdgId | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 247: crvcoincsmc.primaryPdgId | Entries: 50792 | Class: mu2e::CrvHitInfoMC
+      Title: primaryPdgId[crvcoincsmc_]
+      Leaf: crvcoincsmc.primaryPdgId | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 248: crvcoincsmc.primaryE | Entries: 50792 | Class: mu2e::CrvHitInfoMC
+      Title: primaryE[crvcoincsmc_]
+      Leaf: crvcoincsmc.primaryE | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 249: crvcoincsmc.primary.fCoordinates.fX | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fX[crvcoincsmc_]
+      Leaf: crvcoincsmc.primary.fCoordinates.fX | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 250: crvcoincsmc.primary.fCoordinates.fY | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fY[crvcoincsmc_]
+      Leaf: crvcoincsmc.primary.fCoordinates.fY | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 251: crvcoincsmc.primary.fCoordinates.fZ | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fZ[crvcoincsmc_]
+      Leaf: crvcoincsmc.primary.fCoordinates.fZ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 252: crvcoincsmc.parentPdgId | Entries: 50792 | Class: mu2e::CrvHitInfoMC
+      Title: parentPdgId[crvcoincsmc_]
+      Leaf: crvcoincsmc.parentPdgId | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 253: crvcoincsmc.parentE | Entries: 50792 | Class: mu2e::CrvHitInfoMC
+      Title: parentE[crvcoincsmc_]
+      Leaf: crvcoincsmc.parentE | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 254: crvcoincsmc.parent.fCoordinates.fX | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fX[crvcoincsmc_]
+      Leaf: crvcoincsmc.parent.fCoordinates.fX | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 255: crvcoincsmc.parent.fCoordinates.fY | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fY[crvcoincsmc_]
+      Leaf: crvcoincsmc.parent.fCoordinates.fY | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 256: crvcoincsmc.parent.fCoordinates.fZ | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fZ[crvcoincsmc_]
+      Leaf: crvcoincsmc.parent.fCoordinates.fZ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 257: crvcoincsmc.gparentPdgId | Entries: 50792 | Class: mu2e::CrvHitInfoMC
+      Title: gparentPdgId[crvcoincsmc_]
+      Leaf: crvcoincsmc.gparentPdgId | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 258: crvcoincsmc.gparentE | Entries: 50792 | Class: mu2e::CrvHitInfoMC
+      Title: gparentE[crvcoincsmc_]
+      Leaf: crvcoincsmc.gparentE | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 259: crvcoincsmc.gparent.fCoordinates.fX | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fX[crvcoincsmc_]
+      Leaf: crvcoincsmc.gparent.fCoordinates.fX | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 260: crvcoincsmc.gparent.fCoordinates.fY | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fY[crvcoincsmc_]
+      Leaf: crvcoincsmc.gparent.fCoordinates.fY | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 261: crvcoincsmc.gparent.fCoordinates.fZ | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fZ[crvcoincsmc_]
+      Leaf: crvcoincsmc.gparent.fCoordinates.fZ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 262: crvcoincsmc.pos.fCoordinates.fX | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fX[crvcoincsmc_]
+      Leaf: crvcoincsmc.pos.fCoordinates.fX | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 263: crvcoincsmc.pos.fCoordinates.fY | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fY[crvcoincsmc_]
+      Leaf: crvcoincsmc.pos.fCoordinates.fY | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 264: crvcoincsmc.pos.fCoordinates.fZ | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fZ[crvcoincsmc_]
+      Leaf: crvcoincsmc.pos.fCoordinates.fZ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 265: crvcoincsmc.time | Entries: 50792 | Class: mu2e::CrvHitInfoMC
+      Title: time[crvcoincsmc_]
+      Leaf: crvcoincsmc.time | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+    Branch 266: crvcoincsmc.depositedEnergy | Entries: 50792 | Class: mu2e::CrvHitInfoMC
+      Title: depositedEnergy[crvcoincsmc_]
+      Leaf: crvcoincsmc.depositedEnergy | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmc_
+Branch 267: crvcoincsmcplane | Entries: 50792 | Class: vector<mu2e::CrvPlaneInfoMC>
+  Title: crvcoincsmcplane_
+  Leaf: crvcoincsmcplane_ | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+  Sub-branches:
+    Branch 268: crvcoincsmcplane.pdgId | Entries: 50792 | Class: mu2e::CrvPlaneInfoMC
+      Title: pdgId[crvcoincsmcplane_]
+      Leaf: crvcoincsmcplane.pdgId | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmcplane_
+    Branch 269: crvcoincsmcplane.primaryPdgId | Entries: 50792 | Class: mu2e::CrvPlaneInfoMC
+      Title: primaryPdgId[crvcoincsmcplane_]
+      Leaf: crvcoincsmcplane.primaryPdgId | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmcplane_
+    Branch 270: crvcoincsmcplane.primaryE | Entries: 50792 | Class: mu2e::CrvPlaneInfoMC
+      Title: primaryE[crvcoincsmcplane_]
+      Leaf: crvcoincsmcplane.primaryE | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmcplane_
+    Branch 271: crvcoincsmcplane.primary.fCoordinates.fX | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fX[crvcoincsmcplane_]
+      Leaf: crvcoincsmcplane.primary.fCoordinates.fX | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmcplane_
+    Branch 272: crvcoincsmcplane.primary.fCoordinates.fY | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fY[crvcoincsmcplane_]
+      Leaf: crvcoincsmcplane.primary.fCoordinates.fY | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmcplane_
+    Branch 273: crvcoincsmcplane.primary.fCoordinates.fZ | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fZ[crvcoincsmcplane_]
+      Leaf: crvcoincsmcplane.primary.fCoordinates.fZ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmcplane_
+    Branch 274: crvcoincsmcplane.pos.fCoordinates.fX | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fX[crvcoincsmcplane_]
+      Leaf: crvcoincsmcplane.pos.fCoordinates.fX | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmcplane_
+    Branch 275: crvcoincsmcplane.pos.fCoordinates.fY | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fY[crvcoincsmcplane_]
+      Leaf: crvcoincsmcplane.pos.fCoordinates.fY | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmcplane_
+    Branch 276: crvcoincsmcplane.pos.fCoordinates.fZ | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fZ[crvcoincsmcplane_]
+      Leaf: crvcoincsmcplane.pos.fCoordinates.fZ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmcplane_
+    Branch 277: crvcoincsmcplane.dir.fCoordinates.fX | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fX[crvcoincsmcplane_]
+      Leaf: crvcoincsmcplane.dir.fCoordinates.fX | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmcplane_
+    Branch 278: crvcoincsmcplane.dir.fCoordinates.fY | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fY[crvcoincsmcplane_]
+      Leaf: crvcoincsmcplane.dir.fCoordinates.fY | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmcplane_
+    Branch 279: crvcoincsmcplane.dir.fCoordinates.fZ | Entries: 50792 | Class: ROOT::Math::Cartesian3D<float>
+      Title: fZ[crvcoincsmcplane_]
+      Leaf: crvcoincsmcplane.dir.fCoordinates.fZ | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmcplane_
+    Branch 280: crvcoincsmcplane.time | Entries: 50792 | Class: mu2e::CrvPlaneInfoMC
+      Title: time[crvcoincsmcplane_]
+      Leaf: crvcoincsmcplane.time | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmcplane_
+    Branch 281: crvcoincsmcplane.kineticEnergy | Entries: 50792 | Class: mu2e::CrvPlaneInfoMC
+      Title: kineticEnergy[crvcoincsmcplane_]
+      Leaf: crvcoincsmcplane.kineticEnergy | Type: Float_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmcplane_
+    Branch 282: crvcoincsmcplane.dataSource | Entries: 50792 | Class: mu2e::CrvPlaneInfoMC
+      Title: dataSource[crvcoincsmcplane_]
+      Leaf: crvcoincsmcplane.dataSource | Type: Int_t | Entries (owning branch): 50792 | Static length: 1, variable length controlled by crvcoincsmcplane_
+Branch 283: evtwt. | Entries: 50792 | Class: (primitive/split branch)
+  Title: nwts/I:PBIWeight/F
+  Leaf: nwts | Type: Int_t | Entries (owning branch): 50792 | Static length: 1
+  Leaf: PBIWeight | Type: Float_t | Entries (owning branch): 50792 | Static length: 1
+Branch 284: trig_DigitizePath | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_DigitizePath/O
+  Leaf: trig_DigitizePath | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 285: trig_TriggerableLHPath | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_TriggerableLHPath/O
+  Leaf: trig_TriggerableLHPath | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 286: trig_TriggerableTwoTrackPath | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_TriggerableTwoTrackPath/O
+  Leaf: trig_TriggerableTwoTrackPath | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 287: trig_TriggerableCaloPath | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_TriggerableCaloPath/O
+  Leaf: trig_TriggerableCaloPath | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 288: trig_tpr_TrkDe_80m70p_D0200 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_tpr_TrkDe_80m70p_D0200/O
+  Leaf: trig_tpr_TrkDe_80m70p_D0200 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 289: trig_tpr_TrkDe_80m70p | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_tpr_TrkDe_80m70p/O
+  Leaf: trig_tpr_TrkDe_80m70p | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 290: trig_tpr_TrkDe_50_D0200 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_tpr_TrkDe_50_D0200/O
+  Leaf: trig_tpr_TrkDe_50_D0200 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 291: trig_tpr_HlxDe_70m50p | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_tpr_HlxDe_70m50p/O
+  Leaf: trig_tpr_HlxDe_70m50p | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 292: trig_tpr_HlxUe_50m30p | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_tpr_HlxUe_50m30p/O
+  Leaf: trig_tpr_HlxUe_50m30p | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 293: trig_tpr_HlxDe_30p_IPA | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_tpr_HlxDe_30p_IPA/O
+  Leaf: trig_tpr_HlxDe_30p_IPA | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 294: trig_tpr_HlxDe_30p_IPAPhi | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_tpr_HlxDe_30p_IPAPhi/O
+  Leaf: trig_tpr_HlxDe_30p_IPAPhi | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 295: trig_cpr_TrkDe_80m70p_D0200 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_cpr_TrkDe_80m70p_D0200/O
+  Leaf: trig_cpr_TrkDe_80m70p_D0200 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 296: trig_cpr_TrkDe_75m70p_D0200 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_cpr_TrkDe_75m70p_D0200/O
+  Leaf: trig_cpr_TrkDe_75m70p_D0200 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 297: trig_cpr_TrkDe_75_D0200 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_cpr_TrkDe_75_D0200/O
+  Leaf: trig_cpr_TrkDe_75_D0200 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 298: trig_cpr_TrkDe_70_D0200 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_cpr_TrkDe_70_D0200/O
+  Leaf: trig_cpr_TrkDe_70_D0200 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 299: trig_cpr_TrkDe_80m70p | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_cpr_TrkDe_80m70p/O
+  Leaf: trig_cpr_TrkDe_80m70p | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 300: trig_cpr_TrkDe_75m70p | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_cpr_TrkDe_75m70p/O
+  Leaf: trig_cpr_TrkDe_75m70p | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 301: trig_cpr_TrkDe_75 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_cpr_TrkDe_75/O
+  Leaf: trig_cpr_TrkDe_75 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 302: trig_cpr_TrkDe_70 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_cpr_TrkDe_70/O
+  Leaf: trig_cpr_TrkDe_70 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 303: trig_cpr_TrkDe_50_D0200 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_cpr_TrkDe_50_D0200/O
+  Leaf: trig_cpr_TrkDe_50_D0200 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 304: trig_cpr_HlxDe_50 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_cpr_HlxDe_50/O
+  Leaf: trig_cpr_HlxDe_50 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 305: trig_cpr_HlxUe_40 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_cpr_HlxUe_40/O
+  Leaf: trig_cpr_HlxUe_40 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 306: trig_apr_TrkDe_80m70p_D0200 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_apr_TrkDe_80m70p_D0200/O
+  Leaf: trig_apr_TrkDe_80m70p_D0200 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 307: trig_apr_TrkDe_75m70p_D0200 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_apr_TrkDe_75m70p_D0200/O
+  Leaf: trig_apr_TrkDe_75m70p_D0200 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 308: trig_apr_TrkDe_75_D0200 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_apr_TrkDe_75_D0200/O
+  Leaf: trig_apr_TrkDe_75_D0200 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 309: trig_apr_TrkDe_70_D0200 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_apr_TrkDe_70_D0200/O
+  Leaf: trig_apr_TrkDe_70_D0200 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 310: trig_apr_TrkDe_80m70p | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_apr_TrkDe_80m70p/O
+  Leaf: trig_apr_TrkDe_80m70p | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 311: trig_apr_TrkDe_75m70p | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_apr_TrkDe_75m70p/O
+  Leaf: trig_apr_TrkDe_75m70p | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 312: trig_apr_TrkDe_75 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_apr_TrkDe_75/O
+  Leaf: trig_apr_TrkDe_75 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 313: trig_apr_TrkDe_70 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_apr_TrkDe_70/O
+  Leaf: trig_apr_TrkDe_70 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 314: trig_apr_TrkUe_80m70p | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_apr_TrkUe_80m70p/O
+  Leaf: trig_apr_TrkUe_80m70p | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 315: trig_apr_TwoTrkDe_80m70p_D0200 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_apr_TwoTrkDe_80m70p_D0200/O
+  Leaf: trig_apr_TwoTrkDe_80m70p_D0200 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 316: trig_apr_TwoTrkDe_50 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_apr_TwoTrkDe_50/O
+  Leaf: trig_apr_TwoTrkDe_50 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 317: trig_apr_Hlx_50_Hlx_30 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_apr_Hlx_50_Hlx_30/O
+  Leaf: trig_apr_Hlx_50_Hlx_30 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 318: trig_apr_TrkDe_50_D0200 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_apr_TrkDe_50_D0200/O
+  Leaf: trig_apr_TrkDe_50_D0200 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 319: trig_apr_Hlx_50 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_apr_Hlx_50/O
+  Leaf: trig_apr_Hlx_50 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 320: trig_apr_Hlx_30 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_apr_Hlx_30/O
+  Leaf: trig_apr_Hlx_30 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 321: trig_apr_proton | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_apr_proton/O
+  Leaf: trig_apr_proton | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 322: trig_mpr_TrkDe_80m70p_D0200 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_mpr_TrkDe_80m70p_D0200/O
+  Leaf: trig_mpr_TrkDe_80m70p_D0200 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 323: trig_calo_photon | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_calo_photon/O
+  Leaf: trig_calo_photon | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 324: trig_calo_NNCE | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_calo_NNCE/O
+  Leaf: trig_calo_NNCE | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 325: trig_calo_cosmic | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_calo_cosmic/O
+  Leaf: trig_calo_cosmic | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 326: trig_calo_RMC | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_calo_RMC/O
+  Leaf: trig_calo_RMC | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 327: trig_calo_cluster_50 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_calo_cluster_50/O
+  Leaf: trig_calo_cluster_50 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 328: trig_calo_cluster_60 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_calo_cluster_60/O
+  Leaf: trig_calo_cluster_60 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 329: trig_calo_cluster_70 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_calo_cluster_70/O
+  Leaf: trig_calo_cluster_70 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 330: trig_calo_cluster_75 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_calo_cluster_75/O
+  Leaf: trig_calo_cluster_75 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 331: trig_calo_cluster_80 | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_calo_cluster_80/O
+  Leaf: trig_calo_cluster_80 | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 332: trig_cst_TimeCluster | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_cst_TimeCluster/O
+  Leaf: trig_cst_TimeCluster | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 333: trig_apr_TC | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_apr_TC/O
+  Leaf: trig_apr_TC | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 334: trig_apr_TC_calo | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_apr_TC_calo/O
+  Leaf: trig_apr_TC_calo | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 335: trig_cst_CosmicTrackSeed | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_cst_CosmicTrackSeed/O
+  Leaf: trig_cst_CosmicTrackSeed | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 336: trig_minBias_SDCount | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_minBias_SDCount/O
+  Leaf: trig_minBias_SDCount | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 337: trig_minBias_CDCount | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_minBias_CDCount/O
+  Leaf: trig_minBias_CDCount | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 338: trig_calo_N0Source | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_calo_N0Source/O
+  Leaf: trig_calo_N0Source | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+Branch 339: trig_lumiStream | Entries: 50792 | Class: (primitive/split branch)
+  Title: trig_lumiStream/O
+  Leaf: trig_lumiStream | Type: Bool_t | Entries (owning branch): 50792 | Static length: 1
+----------------------------------------------------------------------------------------
+Report Totals
+Top-level branches: 86
+Total branches (including sub-branches): 339
+Total leaves: 339
+========================================================================================

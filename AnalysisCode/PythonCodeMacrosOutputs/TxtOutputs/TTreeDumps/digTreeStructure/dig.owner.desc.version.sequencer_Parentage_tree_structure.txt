@@ -1,0 +1,23 @@
+========================================================================================
+Mu2e .art TTree Structure Report
+========================================================================================
+TTree number: 3 of 11
+TTree path: Parentage
+TTree name: Parentage
+TTree title: 
+TTree entries: 83
+----------------------------------------------------------------------------------------
+Branch and Leaf Structure
+----------------------------------------------------------------------------------------
+Branch 1: Hash | Entries: 83 | Class: art::Hash<5>
+  Title: Hash
+  Leaf: Hash | Type: art::Hash<5> | Entries (owning branch): 83 | Static length: 1
+Branch 2: Description | Entries: 83 | Class: art::Parentage
+  Title: Description
+  Leaf: Description | Type: art::Parentage | Entries (owning branch): 83 | Static length: 1
+----------------------------------------------------------------------------------------
+Report Totals
+Top-level branches: 2
+Total branches (including sub-branches): 2
+Total leaves: 2
+========================================================================================

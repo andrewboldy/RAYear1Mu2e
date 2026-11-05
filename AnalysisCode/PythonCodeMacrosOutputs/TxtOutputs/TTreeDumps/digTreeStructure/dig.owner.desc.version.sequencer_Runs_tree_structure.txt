@@ -1,0 +1,20 @@
+========================================================================================
+Mu2e .art TTree Structure Report
+========================================================================================
+TTree number: 8 of 11
+TTree path: Runs
+TTree name: Runs
+TTree title: 
+TTree entries: 1
+----------------------------------------------------------------------------------------
+Branch and Leaf Structure
+----------------------------------------------------------------------------------------
+Branch 1: RunAuxiliary | Entries: 1 | Class: art::RunAuxiliary
+  Title: RunAuxiliary
+  Leaf: RunAuxiliary | Type: art::RunAuxiliary | Entries (owning branch): 1 | Static length: 1
+----------------------------------------------------------------------------------------
+Report Totals
+Top-level branches: 1
+Total branches (including sub-branches): 1
+Total leaves: 1
+========================================================================================

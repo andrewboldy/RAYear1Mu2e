@@ -1,0 +1,29 @@
+========================================================================================
+Mu2e .art TTree Structure Report
+========================================================================================
+TTree number: 1 of 11
+TTree path: MetaData
+TTree name: MetaData
+TTree title: 
+TTree entries: 1
+----------------------------------------------------------------------------------------
+Branch and Leaf Structure
+----------------------------------------------------------------------------------------
+Branch 1: FileFormatVersion | Entries: 1 | Class: art::FileFormatVersion
+  Title: FileFormatVersion
+  Leaf: FileFormatVersion | Type: art::FileFormatVersion | Entries (owning branch): 1 | Static length: 1
+Branch 2: ProcessHistoryMap | Entries: 1 | Class: map<const art::Hash<2>,art::ProcessHistory>
+  Title: ProcessHistoryMap
+  Leaf: ProcessHistoryMap | Type: map<const art::Hash<2>,art::ProcessHistory> | Entries (owning branch): 1 | Static length: 1
+Branch 3: ProductRegistry | Entries: 1 | Class: art::ProductRegistry
+  Title: ProductRegistry
+  Leaf: ProductRegistry | Type: art::ProductRegistry | Entries (owning branch): 1 | Static length: 1
+Branch 4: ProductDependencies | Entries: 1 | Class: art::BranchChildren
+  Title: ProductDependencies
+  Leaf: ProductDependencies | Type: art::BranchChildren | Entries (owning branch): 1 | Static length: 1
+----------------------------------------------------------------------------------------
+Report Totals
+Top-level branches: 4
+Total branches (including sub-branches): 4
+Total leaves: 4
+========================================================================================

@@ -1,0 +1,20 @@
+========================================================================================
+Mu2e .art TTree Structure Report
+========================================================================================
+TTree number: 5 of 11
+TTree path: EventMetaData
+TTree name: EventMetaData
+TTree title: 
+TTree entries: 50792
+----------------------------------------------------------------------------------------
+Branch and Leaf Structure
+----------------------------------------------------------------------------------------
+Branch 1: EventBranchEntryInfo | Entries: 50792 | Class: vector<art::ProductProvenance>
+  Title: EventBranchEntryInfo
+  Leaf: EventBranchEntryInfo | Type: vector<art::ProductProvenance> | Entries (owning branch): 50792 | Static length: 1
+----------------------------------------------------------------------------------------
+Report Totals
+Top-level branches: 1
+Total branches (including sub-branches): 1
+Total leaves: 1
+========================================================================================

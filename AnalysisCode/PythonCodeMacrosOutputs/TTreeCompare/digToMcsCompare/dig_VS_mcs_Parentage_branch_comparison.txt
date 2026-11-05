@@ -1,0 +1,16 @@
+========================================================================================
+TTree Branch Comparison
+Requested TTree name/path: Parentage
+First file (reference): /exp/mu2e/data/users/aboldy/RAYear1/MDC2025Sim/B2BCeEndpointDiffEnergy/HundredThousandEvents/dig.owner.desc.version.sequencer.art
+First TTree path: Parentage
+First-file branch number: 2
+Second file (comparison): /exp/mu2e/data/users/aboldy/RAYear1/MDC2025Sim/B2BCeEndpointDiffEnergy/HundredThousandEvents/mcs.aboldy.B2BCeEndpointDiffEnergy.MDC2025ab.art
+Second TTree path: Parentage
+Second-file branch number: 2
+========================================================================================
+Only in first file (subtracted in second file): 0
+  None
+Only in second file (added in second file): 0
+  None
+Result: the selected TTrees have identical branch-name structure.
+========================================================================================
